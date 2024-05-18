@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Chunkfive;
+    src: url(ChunkfiveEx.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: AvenirCondensedHand;
+    src: url(AvenirCondensedHand.ttf);
+}
+/*------------------- HEADER -------------------------- */
+#header{
+    /* width: 100%; */
+    padding-top: 20px;
+    background-color: #00AD43;
+    border-bottom: 15px solid #F8EB0F;
+    display: flex;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#left{
+    width: 40%;
+    display: flex;
+    
+    justify-content: center;
+}
+
+#right{
+    width: 60%;
+}
+
+#left img{
+    width: 230px;
+    margin-bottom: 13px;
+    margin-top: 14px;
+    margin-left: 21px;
+    
+    
+}
+
+#right ul{
+    margin-top: 0;
+    margin-left: 10px;
+    /* display: flex; */
+    list-style: none;
+    
+}
+#right li{
+    /* margin-right: 30px; */
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#right ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#right ul li a{
+     margin-top: 54px;
+    margin-left: 25px;
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#right ul li ul#dropdown li{
+    display: block;
+    margin-top: -40px;
+    margin-left: -30px;
+    margin-bottom: 15px;
+}
+#right ul li ul#dropdown{
+    width: 200px;
+    background: #119247;
+    position: absolute;
+    z-index: 10000;
+    display: none;
+    text-align: center;
+    margin-left: -50px;
+    
+    padding-left:0;
+}
+
+#dropdown a{
+   font-size: 13px;
+}
+
+
+
+#right ul li:hover ul#dropdown{
+    display: block;
+    
+}
+
+#right li a:hover{
+    color: #f26724;
+    transition-delay: 0.05s;
+}
+
+/*------------------- END OF HEADER -------------------------- */
+
+
+#menu{
+
+    height:550px;
+ 
+}
+
+#menu-content{
+    font-family: Avenir;
+    margin-top: 180px;
+    margin-left: 210px;
+    
+}
+
+#menu-content img{
+
+    margin-top: -190px ;
+}
+
+#menu-content h1{
+
+    text-align: center;
+    font-family: Chunkfive;
+    margin-top: -280px;
+    margin-right: 190px;
+    color: white;
+    font-size: 40px;
+}
+#menu-content #p1{
+
+    
+    margin-right: 270px;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+}
+
+/* ------------------------------------------------- */
+
+#flavors{
+
+        position: relative;
+        border: 0;
+        background: none;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        margin-left: 200px;
+        transition: transform 0.3s ease;
+
+}
+
+#flavors:hover{
+    transform: translateY(-10px);
+}
+
+#flavors img{
+
+    position: relative;
+    top: -20px;
+    margin-left: -60px;
+    
+}
+
+
+#flavorA{
+    
+    position: relative;
+    margin-left: 285px;
+    bottom: 40px;
+    padding: 5px 86px 0px;
+    background-color: #169246;
+    cursor: pointer;
+    border: none;
+
+}
+
+#flavorA a{
+
+    
+    font-family: Chunkfive;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#greenleft{
+
+    position: absolute;
+    bottom: -45px;
+    margin-left: 5px;
+  
+}
+
+/* ------------------------------------------------- */
+
+
+#special{
+
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    margin-left: 180px;
+    transition: transform 0.3s ease;
+
+}
+
+
+#special:hover{
+transform: translateY(-10px);
+}
+
+#special img{
+    position: relative;
+    
+    top: -20px;
+    margin-left: -30px;
+
+}
+
+#specialA{
+    
+    position: relative;
+    margin-left: 17px;
+    bottom: 45px;
+    padding: 0px 83px;
+    background-color: #169246;
+    cursor: pointer;
+    border: none;
+
+}
+
+#specialA a{
+
+    font-family: Chunkfive;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#greenmiddle{
+
+    position: absolute;
+    bottom: -45px;
+    margin-left: 15px;
+  
+}
+
+/* ------------------------------------------------- */
+
+#new{
+
+    position: relative;
+    border:0;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    margin-left: 180px;
+    transition: transform 0.3s ease;
+
+}
+
+#new:hover{
+transform: translateY(-10px);
+}
+
+#new img{
+    position: relative;
+    margin-top: 5px;
+    top: -25px;
+    margin-left: -55px;
+
+}
+
+#newA{
+    
+    position: relative;
+    margin-left: 17px;
+    bottom: 40px;
+    padding: 0px 39px;
+    background-color: #169246;
+    cursor: pointer;
+    border: none;
+
+}
+
+
+#newA a{
+
+    font-family: Chunkfive;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#greenright{
+
+    position: absolute;
+    bottom: -45px;
+    margin-left: -5px;
+    
+}
+
+
+/*----------------sizes-----------*/
+
+#ed{
+	float:center;
+	width:60%;
+	height:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:80px;
+	font-size:12px;
+	
+}
+#ed img{
+	width:70%;
+	height:180px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ed h1{
+	font-family: Chunkfive;
+}
+
+#mar1{
+	float:left;
+	width:100%;
+	height:120px;
+	color:#169246;
+	text-align:center;
+	font-family: Chunkfive;
+	font-size:19px;
+}
+
+#mar2{
+	float:left;
+	width:33.3%;
+	height:300px;
+	color:black;
+	text-align:center;
+}
+
+#mar3{
+	float:left;
+	width:33.3%;
+	height:300px;
+	text-align:center;
+	color:black;
+}
+#mar4{
+	float:left;
+	width:33.3%;
+	height:300px;
+	text-align:center;
+	color:black;
+}
+#mar5{
+	float:left;
+	width:33.3%;
+	height:300px;
+	text-align:center;
+	color:black;
+
+}
+#mar6{
+	float:left;
+	width:33.3%;
+	height:300px;
+	color:black;
+	text-align:center;
+}
+#mar7{
+	float:left;
+	width:33.3%;
+	height:300px;
+	text-align:center;
+	color:black;
+}
+#mar8{
+	float:left;
+	width:100%;
+	height:70px;
+	color:black;
+	text-align:center;
+	font-size:14px;
+	}
+#mar8 h2{
+	font-family: AvenirCondensedHand;
+	font-size:16px;
+}
+
+
+
+
+/*------------------- FOOTER -------------------------- */
+
+#footer{
+    text-align: center;
+    background-color: #119247;
+    padding-top: 12px;
+    border-top: 5px solid #F8EB0F;
+    padding-bottom: 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#footer span{
+    color: white;
+    font-size: 14px;
+    margin: 0 5px 0  5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#icons img{
+    
+    width: 18px;
+   
+    
+    
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+#icons #icon{
+    margin: 0 5px 0 5px;
+    width: 18px;
+    height: 18px;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#copyright{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/*------------------- END OF FOOTER -------------------------- */
+
+
+
+#floating-whats{
+    background-color: #169246;
+    
+    position: fixed;
+    padding: 15px 0 7px;
+    width: 13%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    z-index: 1000;
+    font-size: 10px;
+    bottom: 0;
+    right: 198px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: black 0px 2px 4px;
+}
+
+#floating-whats a{
+    color: white;
+    text-decoration: none;
+}
+
+#floating-contact{
+    background-color: #F26724;
+    color: white;
+    font-size: 10px;
+    width: 13%;
+    padding: 15px 0 7px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: black 0px 2px 4px;
+}
+
+#floating-contact a{
+    
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,536 @@
+@font-face{
+    font-family: Chunkfive;
+    src: url(ChunkfiveEx.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+#history{
+   
+    font-family: Avenir;
+    margin-top: 180px;
+    margin-left: 210px;
+}
+
+#history img{
+    margin-top: -190px ;
+}
+
+#history h1{
+
+    text-align: center;
+    font-family: Chunkfive;
+    margin-top: -280px;
+    margin-right: 190px;
+    color: white;
+    font-size: 40px;
+}
+#content1{
+
+    margin-top: 110px;
+    width: 85%;
+    display: flex;
+    height: 415px;
+    /* background-color: pink; */
+    margin-bottom: 100px;
+}
+#content1 #col1{
+    width: 50%;
+    height: 100%;
+}
+#content1 #col2{
+    width: 50%;
+    height: 100%;
+}
+#content1 #col2 img{
+    width: 100%;
+    margin: auto;
+    
+}
+
+#content1 #col1 p{
+    font-family: Calibri;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-weight: lighter;
+    line-height: 27px;
+}
+
+#content2{
+
+    margin-top: 110px;
+    width: 85%;
+    display: flex;
+    height: 359px;
+    /* background-color: pink; */
+   
+}
+#content2 #col1{
+    width: 50%;
+    height: 100%;
+}
+#content2 #col2{
+    width: 50%;
+    height: 100%;
+}
+#content2 #col1 img{
+    width: 98%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#content2 #col2 p{
+    font-family: Calibri;
+    padding-left: 10px;
+    padding-top: 60px;
+    font-weight: lighter;
+    line-height: 27px;
+    text-align:right;
+}
+
+#timeline{
+    margin-top: 20px;
+    margin-left: 210px;
+    width: 75%;
+    /* background-color: pink; */
+   
+}
+
+#t1{
+    display: flex;
+}
+
+#timeline h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    font-stretch: wider;
+}
+
+#t1 #left{
+    flex: 1;
+    height: 50px;
+    /* background-color: pink; */
+    padding-right: 20px;
+}
+
+#t1 #right{
+    flex: 1;
+    height: 50px;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#t1 #mid{
+    
+    width: 0.2%;
+    height: 50px;
+    background-color: #169246;
+    
+}
+
+
+
+
+#timeline h3{
+    margin-top: 30px;
+    color: #169246;
+    font-size: 27px;
+}
+
+
+#t2{
+    display: flex;
+    height: 300px;
+}
+
+#t2 #left{
+    text-align: right;
+    /* background-color: pink; */
+    /* justify-content: right; */
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-right: 20px;
+
+    
+}
+#t2 #left h6{
+    
+    /* background-color: red; */
+    height: 30px;
+    /* display: inline-block; */
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t2 #right p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-left: 40px;
+}
+
+#t2 #right h5{
+    
+    margin-left: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+
+#t2 #right h6{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t2 #left p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-right: 40px;
+}
+
+#t2 #left h5{
+    margin-top: 30px;
+    /* background-color: red; */
+    display: inline-block;
+    /* height: 30px; */
+    /* margin-top: 100px; */
+    margin-right: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+#t2 #right{
+    /* justify-content:end; */
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#t2 #mid{
+    
+    width: 0.2%;
+    height: 100%;
+    background-color: #169246;
+    
+}
+
+#t3{
+    display: flex;
+    height: 180px;
+}
+
+#t3 #left{
+    text-align: right;
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-right: 20px;
+    
+}
+
+#t3 #right{
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#t3 #mid{
+    
+    width: 0.2%;
+    height: 100%;
+    background-color: #169246;
+    
+}
+
+#t3 #left h6{
+    
+    /* background-color: red; */
+    height: 30px;
+    /* display: inline-block; */
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t3 #right p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-left: 40px;
+}
+
+#t3 #right h5{
+    
+    margin-left: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+
+#t3 #right h6{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t3 #left p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-right: 40px;
+}
+
+#t3 #left h5{
+    margin-top: 30px;
+    /* background-color: red; */
+    display: inline-block;
+    /* height: 30px; */
+    /* margin-top: 100px; */
+    margin-right: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+   
+}
+
+
+#t4{
+    display: flex;
+    height: 300px;
+}
+
+#t4 #left{
+    text-align: right;
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-right: 20px;
+}
+
+#t4 #right{
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#t4 #mid{
+    
+    width: 0.2%;
+    height: 100%;
+    background-color: #169246;
+    
+}
+
+#t4 #left h6{
+    
+    /* background-color: red; */
+    height: 30px;
+    /* display: inline-block; */
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t4 #right p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-left: 40px;
+}
+
+#t4 #right h5{
+    
+    margin-left: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+
+#t4 #right h6{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t4 #left p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-right: 40px;
+}
+
+#t4 #left h5{
+    margin-top: 30px;
+    /* background-color: red; */
+    display: inline-block;
+    /* height: 30px; */
+    /* margin-top: 100px; */
+    margin-right: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+
+#t5{
+    display: flex;
+    height: 420px;
+}
+
+#t5 #left{
+    text-align: right;
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-right: 20px;
+}
+
+#t5 #right{
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#t5 #mid{
+    
+    width: 0.2%;
+    height: 100%;
+    background-color: #169246;
+    
+}
+
+#t5 #left h6{
+    
+    /* background-color: red; */
+    height: 30px;
+    /* display: inline-block; */
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t5 #right p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-left: 40px;
+}
+
+#t5 #right h5{
+    
+    margin-left: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+
+#t5 #right h6{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#t5 #left p{
+    
+    font-size: 14px;
+    margin-top: -20px;
+     margin-right: 40px;
+}
+
+#t5 #left h5{
+    margin-top: 30px;
+    /* background-color: red; */
+    display: inline-block;
+    /* height: 30px; */
+    /* margin-top: 100px; */
+    margin-right: 40px;
+    font-size: 25px;
+    color: #169246;
+    font-weight: 100;
+}
+
+
+
+/* --------------------------Circles-------------------- */
+
+#c1,#c2,#c3,#c4{
+    display: flex;
+}
+#c1 #left ,#c2 #left,#c3 #left, #c4 #left{
+    flex: 1;
+    height: 50px;
+    /* background-color: pink; */
+    padding-right: 20px;
+}
+
+
+#c1 #right,#c2 #right,#c3 #right,#c4 #right{
+    flex: 1;
+    height: 50px;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#c1 #mid,#c2 #mid,#c3 #mid,#c4 #mid{
+    text-align: center;
+    width: 8%;
+    height: 90px;
+    border: 3.5px solid #169246;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+/* --------------dot--------------- */
+
+#d{
+    display: flex;
+    height: 11px
+}
+#d #left{
+    text-align: right;
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-right: 20px;
+}
+
+#d #right{
+    flex: 1;
+    height: 100%;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+
+#d #mid{
+    
+    width: 1%;
+    height: 100%;
+    background-color: #169246;
+    border-radius: 50%;
+    
+}
+
+#timeline h2{
+    font-family: Chunkfive;
+    text-align: center;
+    color: #169246;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+/*  */
+
+#footer{
+    margin-top: 150px;
+}

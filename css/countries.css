@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Chunkfive;
+    src: url(ChunkfiveEx.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+#countries{
+   
+    font-family: Avenir;
+    margin-top: 180px;
+    margin-left: 210px;
+}
+
+#countries img{
+    margin-top: -190px ;
+}
+
+#countries h1{
+
+    text-align: center;
+    font-family: Chunkfive;
+    margin-top: -280px;
+    margin-right: 190px;
+    color: white;
+    font-size: 40px;
+}
+
+#countries p{
+    font-family: Avenir,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #222222;
+    
+}
+
+#container{
+    width: 60%;
+    height: 1535px;
+    /* background-color: pink; */
+    margin: auto;
+    margin-top: 45px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 246px 246px 246px;
+    grid-template-rows: 176px  176px  176px  176px  176px  176px;
+    grid-gap: 130px 60px;
+    
+    
+}
+
+#items{
+    width: 246px;
+    height: 176px;
+    /* background-color: gray; */
+    text-align: center;
+   
+}
+
+#items img{
+    width: 230px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+#items a{
+    font-size: 30px;
+    
+    font-family: Chunkfive;
+    font-weight: 100;
+    color: #222222;
+    text-decoration: none;
+}
+#item{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 246px;
+    height: 176px;
+    /* background-color: gray; */
+    text-align: center;
+}
+
+
+
+#item img{
+    width: 230px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+#item a{
+    font-size: 30px;
+    
+    font-family: Chunkfive;
+    font-weight: 100;
+    color: #222222;
+    text-decoration: none;
+}

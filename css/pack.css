@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../pictures/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Chunkfive;
+    src: url(ChunkfiveEx.ttf);
+}
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+#header{
+    /* width: 100%; */
+    padding-top: 20px;
+    background-color: #00AD43;
+    border-bottom: 15px solid #F8EB0F;
+    display: flex;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#left{
+    width: 40%;
+    display: flex;
+    
+    justify-content: center;
+}
+
+#right{
+    width: 60%;
+}
+
+#left img{
+    width: 230px;
+    margin-bottom: 13px;
+    margin-top: 14px;
+    margin-left: 21px;
+    
+    
+}
+
+#right ul{
+    margin-top: 0;
+    margin-left: 10px;
+    /* display: flex; */
+    list-style: none;
+    
+}
+#right li{
+    /* margin-right: 30px; */
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#right ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#right ul li a{
+     margin-top: 54px;
+    margin-left: 25px;
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#right ul li ul#dropdown li{
+    display: block;
+    margin-top: -40px;
+    margin-left: -30px;
+    margin-bottom: 15px;
+}
+#right ul li ul#dropdown{
+    width: 200px;
+    background: #119247;
+    position: absolute;
+    z-index: 10000;
+    display: none;
+    text-align: center;
+    margin-left: -50px;
+    
+    padding-left:0;
+}
+
+#dropdown a{
+   font-size: 13px;
+}
+
+
+
+#right ul li:hover ul#dropdown{
+    display: block;
+    
+}
+
+#right li a:hover{
+    color: #f26724;
+    transition-delay: 0.05s;
+}
+
+
+#footer{
+    text-align: center;
+    background-color: #119247;
+    padding-top: 12px;
+    border-top: 5px solid #F8EB0F;
+    padding-bottom: 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#footer span{
+    color: white;
+    font-size: 14px;
+    margin: 0 5px 0  5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#icons img{
+    
+    width: 18px;
+   
+    
+    
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+#icons #icon{
+    margin: 0 5px 0 5px;
+    width: 18px;
+    height: 18px;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#copyright{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#floating-whats{
+    background-color: #169246;
+    
+    position: fixed;
+    padding: 15px 0 7px;
+    width: 13%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    z-index: 1000;
+    font-size: 10px;
+    bottom: 0;
+    right: 198px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: black 0px 2px 4px;
+}
+
+#floating-whats a{
+    color: white;
+    text-decoration: none;
+}
+
+#floating-contact{
+    background-color: #F26724;
+    color: white;
+    font-size: 10px;
+    width: 13%;
+    padding: 15px 0 7px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: black 0px 2px 4px;
+}
+
+#floating-contact a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+#direct p{
+    margin-left: 125px;
+    font-size: 15px;
+    font-family: Avenir;
+
+}
+#Fran h1{
+    font-family: Chunkfive;
+    color: white;
+    font-weight:bolder;
+    background-color: #F26724;
+    border: 2px solid #F26724;
+    border-radius: 20px;
+    text-align: center ;
+    width: 80%;
+    margin:auto;
+    font-size:38px;
+    padding: 25px;
+
+}
+
+#first {
+    background-color: #FDDE2F;
+    color: black;
+    border: #FDDE2F;
+    border-radius: 9px;
+    width: 20%;
+    float: left;
+    margin-left:240px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
+}
+#first:hover{
+    background-color: #F26724;
+    color: aliceblue;
+    cursor: pointer;
+}
+#sec {
+    background-color: #f26724;
+    color: white;
+    border: #F26724;
+    border-radius: 9px;
+    width: 20%;
+    float: left;
+    margin-left:25px ;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+#sec{
+    cursor: pointer;
+}
+#third {
+    background-color: #FDDE2F;
+    color: black;
+    border: #FDDE2F;
+    border-radius: 9px;
+    width: 20%;
+    float: left;
+    margin-left:25px ;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+#third:hover{
+    background-color: #F26724;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#mother1{
+    width: 100%;
+}
+#mother2{
+    width: 100%;
+}
+#mother3{
+    width: 100%;
+}
+#mother4{
+    width: 100%;
+}
+#mother1 #ones img{
+
+    width: 55%;
+    height: 400px;
+}
+#mother2 #twos img{
+    height: 400px;
+    width: 55%;
+}
+#mother3 #threes img{
+    height: 400px;
+    width: 55%;
+}
+#mother4 #fours img{
+    height: 400px;
+    width: 55%;
+}
+
+#mother1 #ones{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 375px;
+}
+#mother1 #info1{
+    width: 50%;
+    float: left;
+     text-align: left;
+    font-size: medium;
+    height: 375px;
+}
+#mother1 #info1 h1{
+    color: #F26724;
+    font-family: Chunkfive;
+}
+
+#mother2 #twos{
+    height: 410px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#mother2 #info2{
+    height: 410px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: medium;
+}
+#mother2 #info2 h1{
+    color: #F26724;
+    font-family: Chunkfive;
+}
+
+#mother3 #threes{
+    width: 50%;
+    float: left;
+    height: 410px;
+   text-align: center;
+}
+#mother3 #info3{
+
+    width: 50%;
+    float: left;
+    height: 410px;
+    text-align: left;
+    font-size: medium;
+}
+#mother3 #info3 h1{
+    color: #F26724;
+    font-family: Chunkfive;
+}
+
+#mother4 #fours{
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: 410px;
+}
+#mother4 #info4{
+    width: 50%;
+    float: left;
+    height: 410px;
+    text-align: left;
+    font-size: medium;
+}
+
+#mother4 #info4 h1{
+    color: #F26724;
+    font-family: Chunkfive;
+}
+#line1 h1{
+
+    color: #119247;
+    text-align: center;
+} 
+#line2 h1{
+    color: #119247;
+    text-align: center;
+}
+#line3 h1{
+    color: #119247;
+    text-align: center;
+}
+
+
+
+

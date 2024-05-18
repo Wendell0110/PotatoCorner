@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    font-family: Avenir, Arial, Helvetica;
+    background-image: url(fries.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Chunkfive;
+    src: url(ChunkfiveEx.ttf);
+}
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+#header{
+    /* width: 100%; */
+    padding-top: 20px;
+    background-color: #00AD43;
+    border-bottom: 15px solid #F8EB0F;
+    display: flex;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#left{
+    width: 40%;
+    display: flex;
+    
+    justify-content: center;
+}
+
+#right{
+    width: 60%;
+}
+
+#left img{
+    width: 230px;
+    margin-bottom: 13px;
+    margin-top: 14px;
+    margin-left: 21px;
+    
+    
+}
+
+#right ul{
+    margin-top: 0;
+    margin-left: 10px;
+    /* display: flex; */
+    list-style: none;
+    
+}
+#right li{
+    /* margin-right: 30px; */
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#right ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#right ul #event{
+    color: #f26724;
+}
+
+#right ul li a{
+     margin-top: 54px;
+    margin-left: 25px;
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#right ul li ul#dropdown li{
+    display: block;
+    margin-top: -40px;
+    margin-left: -30px;
+    margin-bottom: 15px;
+}
+#right ul li ul#dropdown{
+    width: 200px;
+    background: #119247;
+    position: absolute;
+    z-index: 10000;
+    display: none;
+    text-align: center;
+    margin-left: -50px;
+    
+    padding-left:0;
+}
+
+#dropdown a{
+   font-size: 13px;
+}
+
+
+
+#right ul li:hover ul#dropdown{
+    display: block;
+    
+}
+
+
+
+
+
+
+#right li a:hover{
+    color: #f26724;
+    transition-delay: 0.05s;
+}
+
+#footer{
+    text-align: center;
+    background-color: #119247;
+    padding-top: 12px;
+    border-top: 5px solid #F8EB0F;
+    padding-bottom: 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#footer span{
+    color: white;
+    font-size: 14px;
+    margin: 0 5px 0  5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#icons img{
+    
+    width: 18px;
+   
+    
+    
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+#icons #icon{
+    margin: 0 5px 0 5px;
+    width: 18px;
+    height: 18px;
+    padding: 9px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#copyright{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#floating-whats{
+    background-color: #169246;
+    
+    position: fixed;
+    padding: 15px 0 7px;
+    width: 13%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    z-index: 1000;
+    font-size: 10px;
+    bottom: 0;
+    right: 198px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: black 0px 2px 4px;
+}
+
+#floating-whats a{
+    color: white;
+    text-decoration: none;
+}
+
+#floating-contact{
+    background-color: #F26724;
+    color: white;
+    font-size: 10px;
+    width: 13%;
+    padding: 15px 0 7px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: black 0px 2px 4px;
+}
+
+#floating-contact a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+#bodyy #HnEnBS{
+    font-size: 14px;
+    margin-left: 220px;;
+}
+
+#bodyy #motherdiv{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0 50px 0 150px;
+}
+
+#bodyy #motherdiv p{
+    font-size: 14px;
+}
+
+#bodyy #motherdiv #leftbody{
+    width: 100%;
+    margin: auto;
+}
+
+#bodyy #motherdiv #leftbody h2{
+    font-size: 40px;
+    color: #119247;
+    font-family: Chunkfive;
+    font-weight: normal;
+}
+
+#bodyy #motherdiv #rightbody{
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 0 0 50px;
+}
+
+form {
+	border: none;
+	padding: 16px;
+	width: 100%;
+	margin: auto;
+    font-size: 12px;
+}
+
+input[type=text], input[type=date], input[type=number], input[type=email], input[type=time], select {
+	border: none;
+	padding: 18px;
+	width: 100%;
+	margin: 8px 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+    background-color: #F5F5F5;
+    outline: 0;
+}
+
+#bodyy #motherdiv2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0 50px 0 150px;
+}
+
+#bodyy #motherdiv2 p{
+    font-size: 14px;
+}
+
+#bodyy #motherdiv2 #leftbody2{
+    width: 100%;
+    margin: auto;
+}
+
+#bodyy #motherdiv2 #leftbody2 h2{
+    font-size: 40px;
+    color: #119247;
+}
+
+#bodyy #motherdiv2 #rightbody2{
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 0 0 50px;
+}
+
+hr{
+    width: 70%;
+}
+
+#req{
+    border: none;
+	width: 80%;
+	margin: 8px 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+    background-color: #F5F5F5;
+    min-height: 245px;
+    max-height: 305px;
+    resize: vertical;
+}
+
+button{
+    background-color: #f26724;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 225px;
+}
+
+button:hover{
+    color: black;
+}

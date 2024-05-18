@@ -1,0 +1,73 @@
+@font-face{
+    font-family: Chunkfive;
+    src: url(ChunkfiveEx.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+#extended{
+   
+    font-family: Avenir;
+    margin-top: 180px;
+    margin-left: 210px;
+    
+    
+}
+
+#container{
+    display: flex;
+}
+
+#bubble{
+    background-image: url("../pictures/Union-4.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 50%;
+    height: 470px;
+   text-align: center;
+}
+
+#potato{
+    width: 341px;
+    margin-top: 200px;
+    margin-left: -50px;
+}
+
+img{
+    width: 100%;
+}
+
+#bubble h1{
+   text-align: center;
+   margin-top: 150px;
+   font-family: Chunkfive;
+    color: #F26724;
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+
+#bubble p{
+    margin: auto;
+    width: 380px;
+    font-size: Avenir;
+    font-size: 11px;
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+button{
+    cursor: pointer;
+    background-color: #F26724;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    
+    font-size: 16px;
+    border-radius: 5px;
+}
